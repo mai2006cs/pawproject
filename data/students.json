@@ -1,38 +1,8 @@
 [
     {
-        "student_id": "aouar roumaissa",
-        "last_name": "",
-        "first_name": "",
-        "email": ""
-    },
-    {
-        "student_id": "aouar roumaissa",
-        "last_name": "roumaissa",
-        "first_name": "",
-        "email": ""
-    },
-    {
-        "student_id": "aouar roumaissa",
-        "last_name": "roumaissa",
-        "first_name": "ar",
+        "student_id": "105",
+        "last_name": "Aouar",
+        "first_name": "Roumaissa",
         "email": "roumaissaour@gmail.com"
-    },
-    {
-        "student_id": "aouar roumaissa",
-        "last_name": "roumaissa",
-        "first_name": "ar",
-        "email": "roumaissaour@gmail.com"
-    },
-    {
-        "student_id": "aouar roumaissa",
-        "last_name": "roumaissa",
-        "first_name": "ar",
-        "email": "roumaissaour@gmail.com"
-    },
-    {
-        "student_id": "142",
-        "last_name": "laila",
-        "first_name": "laila",
-        "email": "laila2005@gmail.com"
     }
 ]

@@ -181,8 +181,20 @@ $(document).ready(function () {
         $("#add-confirm").text("");
       }, 3000);
 
-    }, "json").fail(function() {
-      $("#add-confirm").text("Error adding student").css("color", "red");
+    }, "json").fail(function(xhr) {
+      // Handle error response from server
+      let errorMsg = "Error adding student";
+      
+      if (xhr.responseJSON && xhr.responseJSON.errors) {
+        errorMsg = xhr.responseJSON.errors.join(", ");
+      }
+      
+      $("#add-confirm").text(errorMsg).css("color", "red");
+      
+      // Hide error after 5 seconds
+      setTimeout(function() {
+        $("#add-confirm").text("");
+      }, 5000);
     });
   });
 

@@ -83,6 +83,9 @@ You probably need to run setup.php first. Also double-check that MySQL is runnin
 **No students showing up**  
 Add some students first using the form on index.php or through manage_students.php. Also make sure the `data/students.json` file exists.
 
+**"Student ID already exists" error**  
+You're trying to add a student with an ID that's already in the system. Each student must have a unique ID number. Check the attendance table to see existing students.
+
 **Checkboxes not updating counts**  
 Press F12 and check the browser console for errors. Make sure you have internet connection (jQuery loads from a CDN). Try clearing your cache with Ctrl+Shift+R.
 
