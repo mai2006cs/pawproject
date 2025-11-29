@@ -42,63 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <html>
 <head>
     <title>Take Attendance</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        body { background: #f5f5f5; }
-        .container { 
-            max-width: 800px; 
-            margin: 30px auto; 
-            padding: 20px; 
-            background: white; 
-            border-radius: 8px; 
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
-        }
-        h2 { color: #333; border-bottom: 3px solid #007bff; padding-bottom: 10px; }
-        table { 
-            width: 100%; 
-            border-collapse: collapse; 
-            margin: 20px 0; 
-        }
-        th { 
-            background: #007bff; 
-            color: white; 
-            padding: 12px; 
-            text-align: left; 
-        }
-        td { 
-            padding: 12px; 
-            border-bottom: 1px solid #ddd; 
-        }
-        tr:hover { background: #f5f5f5; }
-        input[type="radio"] { 
-            width: 20px; 
-            height: 20px; 
-            cursor: pointer; 
-        }
-        button { 
-            padding: 12px 30px; 
-            background: #28a745; 
-            color: white; 
-            border: none; 
-            border-radius: 5px; 
-            font-size: 16px; 
-            cursor: pointer; 
-            margin-top: 10px;
-        }
-        button:hover { background: #218838; }
-        .message { 
-            padding: 15px; 
-            margin: 15px 0; 
-            border-radius: 5px; 
-            font-weight: bold; 
-        }
-        .success { background: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
-        .warning { background: #fff3cd; color: #856404; border: 1px solid #ffeeba; }
-        .back-link { margin-bottom: 20px; }
-        .back-link a { color: #007bff; text-decoration: none; }
-        .back-link a:hover { text-decoration: underline; }
-        .student-count { color: #666; font-size: 14px; margin-bottom: 10px; }
-    </style>
+    <link rel="stylesheet" href="style.css?v=6">
 </head>
 <body>
     <nav class="navbar">

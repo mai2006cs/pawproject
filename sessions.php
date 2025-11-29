@@ -52,24 +52,7 @@ $sessions = $db->query("SELECT * FROM attendance_sessions ORDER BY session_date 
 <html>
 <head>
     <title>Attendance Sessions</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        .container { background: white; padding: 20px; border-radius: 8px; margin: 20px auto; max-width: 1200px; }
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        th, td { padding: 12px; border: 1px solid #ddd; text-align: left; }
-        th { background: #28a745; color: white; }
-        tr:hover { background: #f5f5f5; }
-        input { width: 100%; padding: 8px; margin: 5px 0; box-sizing: border-box; }
-        button { padding: 10px 20px; background: #28a745; color: white; border: none; cursor: pointer; border-radius: 5px; }
-        button:hover { background: #218838; }
-        .btn-close { background: #dc3545; padding: 5px 10px; color: white; text-decoration: none; border-radius: 3px; }
-        .status-open { color: #28a745; font-weight: bold; }
-        .status-closed { color: #dc3545; font-weight: bold; }
-        .success { color: green; background: #d4edda; padding: 10px; border-radius: 5px; margin: 10px 0; }
-        .error { color: red; background: #f8d7da; padding: 10px; border-radius: 5px; margin: 10px 0; }
-        .form-group { margin-bottom: 15px; }
-        label { font-weight: bold; display: block; }
-    </style>
+    <link rel="stylesheet" href="style.css?v=6">
 </head>
 <body>
     <nav class="navbar">

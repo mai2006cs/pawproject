@@ -78,25 +78,7 @@ $students = $db->query("SELECT * FROM students ORDER BY id DESC")->fetchAll();
 <html>
 <head>
     <title>Manage Students</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        body { font-family: Arial; max-width: 1000px; margin: 30px auto; padding: 20px; background: #f5f5f5; }
-        h1 { color: #333; }
-        .container { background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
-        table { width: 100%; border-collapse: collapse; }
-        th, td { padding: 12px; border: 1px solid #ddd; text-align: left; }
-        th { background: #007bff; color: white; }
-        tr:hover { background: #f5f5f5; }
-        input, select { width: 100%; padding: 8px; margin: 5px 0; box-sizing: border-box; }
-        button { padding: 10px 20px; background: #28a745; color: white; border: none; cursor: pointer; margin: 5px; }
-        button:hover { background: #218838; }
-        .btn-edit { background: #007bff; padding: 5px 10px; color: white; text-decoration: none; border-radius: 3px; }
-        .btn-delete { background: #dc3545; padding: 5px 10px; color: white; text-decoration: none; border-radius: 3px; }
-        .success { color: green; background: #d4edda; padding: 10px; border-radius: 5px; }
-        .error { color: red; background: #f8d7da; padding: 10px; border-radius: 5px; }
-        .form-group { margin-bottom: 15px; }
-        label { font-weight: bold; }
-    </style>
+    <link rel="stylesheet" href="style.css?v=6">
 </head>
 <body>
     <nav class="navbar">

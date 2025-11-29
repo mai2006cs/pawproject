@@ -46,7 +46,7 @@ $(document).ready(function () {
   });
 
 
-  // SEARCH (Tutorial 2)
+  // SEARCH 
   $("#search-name").on("input", function () {
     let term = $(this).val().toLowerCase();
 
@@ -95,7 +95,7 @@ $(document).ready(function () {
   });
 
 
-  // TUTORIAL 2 EXERCISE 2 - FORM VALIDATION
+  // FORM VALIDATION
   $("#addForm").submit(function (e) {
     e.preventDefault();
 
@@ -148,7 +148,7 @@ $(document).ready(function () {
       return false; // Prevent form submission
     }
 
-    // TUTORIAL 2 EXERCISE 3 - ADD STUDENT DYNAMICALLY
+    //  ADD STUDENT DYNAMICALLY
     $.post("add_student.php", $("#addForm").serialize(), function (res) {
       $("#add-confirm").text(res.message).css("color", "green");
 
@@ -199,7 +199,7 @@ $(document).ready(function () {
   });
 
 
-  // TUTORIAL 2 EXERCISE 4 - SHOW REPORT
+  // SHOW REPORT
   $("#show-report").click(function () {
     let totalStudents = $("#att-table tbody tr").length;
     let totalPresent = 0;
@@ -227,7 +227,7 @@ $(document).ready(function () {
   });
 
 
-  // TUTORIAL 2 EXERCISE 5 - ROW HOVER AND CLICK
+  // ROW HOVER AND CLICK
   $("#att-table tbody").on("mouseenter", "tr", function () {
     $(this).css("background-color", "#e0e0e0");
   });
@@ -248,7 +248,7 @@ $(document).ready(function () {
   });
 
 
-  // TUTORIAL 2 EXERCISE 6 - HIGHLIGHT EXCELLENT STUDENTS
+  // HIGHLIGHT EXCELLENT STUDENTS
   $("#highlight-excellent").click(function () {
     $("#att-table tbody tr").each(function () {
       let abs = parseInt($(this).find(".abs-count").text());

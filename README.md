@@ -106,6 +106,38 @@ The code uses prepared statements for security, AJAX for dynamic updates, and bo
 
 ---
 
+## Design & Styling
+
+**Pink Gradient Theme**  
+The entire application features a beautiful pink gradient color scheme with modern aesthetics. All styling is centralized in `style.css` for easy maintenance.
+
+**Color Palette:**
+- Light pink gradients for backgrounds: #fce4ec to #f8bbd0
+- Navbar gradient: #ff85c0 to #ffb3d9
+- Accent color: #ff69b4 (hot pink)
+- Hover colors: #ff1493 (deep pink)
+
+**Modern Design Elements:**
+- Smooth animations and transitions on all interactive elements
+- Rounded corners (border-radius) on buttons, inputs, and containers
+- Box shadows for depth and elevation
+- Gradient backgrounds on buttons and table headers
+- Color-coded status indicators with gradients
+
+**Interactive Features:**
+- Hover effects that lift elements slightly (translateY)
+- Focus states with pink glowing borders
+- Checkbox accent color matching the pink theme
+- Smooth transitions for all state changes
+
+**CSS Version Management:**  
+The application uses version parameters (`?v=6`) in CSS links to force browser cache updates. If you make changes to `style.css`, increment the version number in all PHP files and have users hard refresh (Ctrl+Shift+R) to see updates immediately.
+
+**No Inline Styles:**  
+All CSS has been moved to `style.css` - there are no inline `style=""` attributes or `<style>` tags in any PHP file. This ensures consistency, easier maintenance, and proper theme application across all pages.
+
+---
+
 ## Quick Reference
 
 - **View attendance** → index.php

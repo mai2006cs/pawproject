@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Attendance System</title>
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=5">
   <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 </head>
 <body>
